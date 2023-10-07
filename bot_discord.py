@@ -31,5 +31,5 @@ async def on_message(message):
         mensagem = message.content[len('!enviar'):].strip()
         await message.channel.send(f'Enviando a mensagem: "{mensagem}"')
 
-token = 'MTExODY2MjAwMzk2ODQ1ODk5Mg.G5gcks.CkrmkAplvb8jQoVEBXHwQ4AhnG7UCYRnpg9C0Q'
+token = ''
 bot.run(token)
